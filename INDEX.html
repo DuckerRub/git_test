@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- lang is useful e.g. for accessibility features to adapt to the page's language -->
+    <head>
+        <meta charset="UTF-8"> <!-- Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.-->
+        <title>My first page</title>
+    </head>
+    <body>
+        <h1>Heading</h1>
+        <p>Hey <strong>man</strong>. What is <em>really</em> going on?</p>
+        <h2>My assumptions:</h2>
+        <ul>
+            <li>Assumption A</li>
+            <li>Assumption b</li>
+        </ul>
+        <h2>WHat you should do instead:</h2>
+        <ol>
+            <li>DO this</li>
+            <li>ANd that</li>
+        </ol>
+        <a 
+            href="pages/page.html"
+            target="_blank" 
+            rel="noopener noreferrer">About The Odin Project
+        </a>
+        <!--  noopener ensures that a link opened in a new tab or window cannot interact with or access the original page. Without it, the new page can use JavaScript to manipulate the original page, which poses a security risk.-->
+         <!--  noreferrer prevents the new page from knowing where the user came from (hiding the referrer)  -->
+    </body>
+</html>
